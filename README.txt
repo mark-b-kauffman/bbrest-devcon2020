@@ -1,3 +1,5 @@
+Requires: Python >=3.7, <3.8 # I did not have luck with Python 3.8.x.
+
 $ python3 -m venv env
 
 $ source env/bin/activate
