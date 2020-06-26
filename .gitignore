@@ -110,3 +110,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Don't check in key secret values!!
+Config.py
