@@ -39,7 +39,8 @@ def main():
     secret = ict['learn_rest_secret']
 
     link_creator = LinkContentCreator(fqdn, key, secret, args.course_id, args.link_url, args.title, args.description)
-    link_creator.create_content_containing_link(args.course_id, "https://docs.blackboard.com", "Blackboard Dev Docs", "Read the Docs!" )
+  #  link_creator.create_content_containing_link(args.course_id, "https://docs.blackboard.com", "Blackboard Dev Docs", "Read the Docs!" )
+    link_creator.create_content_containing_link(args.course_id, args.link_url, args.title, args.description )
 
     print("current date and time is..")
     localtime = time.asctime(time.localtime(time.time()))
